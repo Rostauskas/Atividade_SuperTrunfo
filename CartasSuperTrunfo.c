@@ -19,7 +19,7 @@ int main() {
     printf("Informe a cidade da carta 1: \n");
     scanf(" %[^\n]", cidade); // Lê a linha inteira com espaços
 
-    printf("Informe a populacao da carta : \n");
+    printf("Informe a populacao da carta 1: \n");
     scanf("%d", &populacao); 
     
     printf("Carta 1:\n");

@@ -18,11 +18,15 @@ int main() {
 
     printf("Informe a cidade da carta 1: \n");
     scanf(" %[^\n]", cidade); // Lê a linha inteira com espaços
+
+    printf("Informe a populacao da carta 1: \n");
+    scanf("%d", &populacao); 
     
     printf("Carta 1:\n");
     printf("Estado informado: %c\n", estado);
     printf("Codigo informado: %s\n", codigo);            
     printf("Cidade informada: %s\n", cidade);            
+    printf("Populacao informada: %d\n", populacao);  
 
     return 0;
 }
